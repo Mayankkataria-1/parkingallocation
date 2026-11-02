@@ -1,4 +1,4 @@
-const API = "/api";
+const API = "https://bck-1-4apn.onrender.com/api";
 const state = { token: localStorage.getItem("parkflow_token"), user: null, page: "dashboard", selectedSlot: null };
 const pageNames = {
   dashboard: ["YOUR PARKING, IN ONE PLACE", "Overview"], slots: ["FIND YOUR NEXT SPOT", "Parking slots"],
